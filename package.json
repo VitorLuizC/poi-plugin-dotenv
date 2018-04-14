@@ -1,6 +1,6 @@
 {
   "name": "poi-plugin-dotenv",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Load variables defined on .env file to process.env object.",
   "main": "index.js",
   "scripts": {
