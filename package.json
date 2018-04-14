@@ -28,5 +28,8 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "poi": "^10.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1"
   }
 }
