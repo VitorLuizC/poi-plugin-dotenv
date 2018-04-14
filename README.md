@@ -1,5 +1,7 @@
 # poi-plugin-dotenv
 
+[![Build Status][ci-badge]][ci]
+
 Loads .env variables into Poi's application.
 
 ## Install
@@ -67,3 +69,5 @@ Released under MIT license. You can see it [here][license].
 <!-- Links -->
 
 [license]: ./LICENSE
+[ci]: https://travis-ci.org/VitorLuizC/poi-plugin-dotenv
+[ci-badge]: https://travis-ci.org/VitorLuizC/poi-plugin-dotenv.svg?branch=master
