@@ -28,18 +28,19 @@ test('".env" variables don\'t overwrite already defined variables', async (conte
   process.env.TEST_MESSAGE = TEST_MESSAGE
   const env = await getEnv()
   context.is(env.TEST_MESSAGE, TEST_MESSAGE)
-  delete process.env.TEST_MESSAGE
 })
 
 test('Plugin allows you to change ".env" path', async (context) => {
+  delete process.env.TEST_MESSAGE
   const TEST_MESSAGE = 'TEST_MESSAGE 3'
   const env = await getEnv({
-    path: '.env.custom'
+    path: './test/.env.custom'
   })
   context.is(env.TEST_MESSAGE, TEST_MESSAGE)
 })
 
 test('Plugin allows you to pass an env object to overwrite loaded variables', async (context) => {
+  delete process.env.TEST_MESSAGE
   const TEST_MESSAGE = 'TEST_MESSAGE 4'
   const env = await getEnv({
     env: {
