@@ -1,0 +1,28 @@
+{
+  "name": "poi-plugin-dotenv",
+  "version": "0.0.0",
+  "description": "Load variables defined on .env file to process.env object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorLuizC/poi-plugin-dotenv.git"
+  },
+  "keywords": [
+    "poi-plugin",
+    "dotenv",
+    "poi"
+  ],
+  "author": {
+    "url": "https://vitorluizc.github.io/",
+    "name": "Vitor Luiz Cavalcanti",
+    "email": "vitorluizc@outlook.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VitorLuizC/poi-plugin-dotenv/issues"
+  },
+  "homepage": "https://github.com/VitorLuizC/poi-plugin-dotenv#readme"
+}
